@@ -2,10 +2,10 @@
 
 ## Tools, Technology and Programming Language
 
-Build System : Gradle
-Autmation Framwork : Appium
-Programming Language : Java
-Platform Supported : Android
+- Build System : Gradle
+- Autmation Framwork : Appium
+- Programming Language : Java
+- Platform Supported : Android
 
 ## Pre setup
 
