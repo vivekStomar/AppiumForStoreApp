@@ -11,8 +11,9 @@ public class PlaceOrderWebviewTest extends BaseTest {
 
      /*
      * Scenario:
-     * validate back button navigation after pressing takes to previous screen.
-     * i.e. "Cart" screen.
+     * validate if user is able to place the order.
+     * 
+     * To-Do TBD random no-of-items and item at random postion by running same test case.
      */
     @Test(groups = { "testPlaceOrderWebView" })
     public void testPlaceOrderWebView() {
@@ -38,11 +39,10 @@ public class PlaceOrderWebviewTest extends BaseTest {
         LoginSteps.assertDoubleBackPressToExit(driver);
     }
 
-    /*
+     /*
      * Scenario:
-     * validate if user is able to place the order.
-     * 
-     * To-Do TBD random no-of-items and item at random postion by running same test case.
+     * validate back button navigation after pressing takes to previous screen.
+     * i.e. "Cart" screen.
      */
     @Test(groups = { "testNavigationBackButton" })
     public void testNavigationBackButton(){
@@ -61,9 +61,7 @@ public class PlaceOrderWebviewTest extends BaseTest {
 
         CartSteps.clickOnCompleteOrderButton(driver);
 
-        PlaceOrderWebViewSteps.placeOrderAtWebView(driver);
-
         PlaceOrderWebViewSteps.clickNavigationBackButton(driver);
-        LoginSteps.assetLoginScreenVisible(driver);
+        CartSteps.assertCartScreenIsVisible(driver);
     }
 }
