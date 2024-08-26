@@ -62,6 +62,6 @@ public class PlaceOrderWebviewTest extends BaseTest {
         CartSteps.clickOnCompleteOrderButton(driver);
 
         PlaceOrderWebViewSteps.clickNavigationBackButton(driver);
-        CartSteps.assertCartScreenIsVisible(driver);
+        LoginSteps.assetLoginScreenVisible(driver);
     }
 }
