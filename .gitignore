@@ -34,7 +34,3 @@ out/
 .git/
 bin/
 output/
-
-
-ApiDemos-debug*
-TestApp.app*
