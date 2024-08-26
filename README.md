@@ -21,7 +21,7 @@
     https://automationhacks.io/slides/2021/appium-conf/hello-appium-writing-your-first-tests/04-common-libraries/ (refrence that I followed)
   
 
-## Pre setup
+## What is where?
 
 - Store.apk can be located at root of the project
 - android-caps.json for android capabilities
