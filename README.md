@@ -38,6 +38,4 @@
   gradle wrapper
  ./gradlew clean build runTests -Dtag="<any-available-tag>" -Dtarget="ANDROID"
 ```
-example ./gradlew clean build runTests -Dtag="PLACE_ORDER" -Dtarget="ANDROID"
-
-if target property is missing than target mentioned at env.properties would be used.
+example ./gradlew clean build runTests -Dtag="PLACE_ORDER" -Dtarget="ANDROID" <br/>if target property is missing than target mentioned at env.properties would be used.
