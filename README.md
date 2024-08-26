@@ -33,6 +33,10 @@
 
 
 ## Run Android tests
+run appium server
+```zsh
+appium --base-path /wd/hub --allow-insecure chromedriver_autodownload
+```
 
 ```zsh
   gradle wrapper
@@ -42,7 +46,10 @@ example ./gradlew clean build runTests -Dtag="PLACE_ORDER" -Dtarget="ANDROID" <b
 
 
 To-Do
-- Improve Reporing - Console and Html
+- Improve Reporing - Console - Html - customize report
+- publish report as output artifact
 - Introduce BDD
 - Enable Video and Screenshot
 - Upgrade java_client version
+- Implicit wait Explicit wait and Fluid wait
+- Gradle run vs runTests, why to create runTests custom task

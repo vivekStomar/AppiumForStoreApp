@@ -4,7 +4,7 @@ import org.testng.Assert;
 
 import core.screen.BaseScreen;
 import io.appium.java_client.AppiumDriver;
-import screens.store.cart.CartScreen;
+import store.screen.cart.CartScreen;
 
 public class CartSteps {
 

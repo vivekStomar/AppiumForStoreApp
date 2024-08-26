@@ -4,7 +4,7 @@ import org.testng.Assert;
 
 import core.screen.BaseScreen;
 import io.appium.java_client.AppiumDriver;
-import screens.store.launch.LoginScreen;
+import store.screen.launch.LoginScreen;
 
 public class LoginSteps {
 

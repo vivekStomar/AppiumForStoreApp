@@ -1,4 +1,4 @@
-package screens.store.order;
+package store.screen.order;
 
 import org.openqa.selenium.By;
 

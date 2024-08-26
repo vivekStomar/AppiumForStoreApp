@@ -6,7 +6,7 @@ import steps.ProductsSteps;
 import org.testng.annotations.Test;
 
 @Test(groups = { TestGroups.PRODUCTS })
-public class ProductsFeatureTest extends BaseTest {
+public class ProductsFeatureFeatureTest extends BaseTest {
 
      /*
      * Scenario:

@@ -7,7 +7,7 @@ import steps.PlaceOrderWebViewSteps;
 import steps.ProductsSteps;
 
 @Test(groups = { TestGroups.PLACE_ORDER })
-public class PlaceOrderWebviewTest extends BaseTest {
+public class PlaceOrderWebviewFeatureTest extends BaseTest {
 
      /*
      * Scenario:

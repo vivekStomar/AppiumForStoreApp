@@ -1,4 +1,4 @@
-package screens.store.products;
+package store.screen.products;
 
 import io.appium.java_client.AppiumDriver;
 // import io.appium.java_client.MobileBy;

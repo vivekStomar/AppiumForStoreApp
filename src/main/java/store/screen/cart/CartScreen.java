@@ -1,4 +1,4 @@
-package screens.store.cart;
+package store.screen.cart;
 
 import java.util.List;
 

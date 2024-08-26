@@ -3,7 +3,7 @@ package steps;
 import java.util.Set;
 
 import io.appium.java_client.AppiumDriver;
-import screens.store.order.PlaceOrderWebViewScreen;
+import store.screen.order.PlaceOrderWebViewScreen;
 
 public class PlaceOrderWebViewSteps {
 

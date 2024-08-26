@@ -4,7 +4,7 @@ import org.testng.Assert;
 
 import core.screen.BaseScreen;
 import io.appium.java_client.AppiumDriver;
-import screens.store.products.ProductsScreen;
+import store.screen.products.ProductsScreen;
 
 public class ProductsSteps {
 
