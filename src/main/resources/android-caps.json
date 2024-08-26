@@ -1,0 +1,7 @@
+{
+  "platformName": "android",
+  "automationName": "uiautomator2",
+  "platformVersion": "13",
+  "deviceName": "Automation",
+  "app": "Store.apk"
+}
