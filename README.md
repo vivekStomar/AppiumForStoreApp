@@ -47,9 +47,13 @@ example ./gradlew clean build runTests -Dtag="PLACE_ORDER" -Dtarget="ANDROID" <b
 
 To-Do
 - Improve Reporing - Console - Html - customize report
+- Use Builder pattern + Data Faker for test date generation
+- Test Data from xlx file
 - publish report as output artifact
 - Introduce BDD
 - Enable Video and Screenshot
 - Upgrade java_client version
 - Implicit wait Explicit wait and Fluid wait
 - Gradle run vs runTests, why to create runTests custom task
+- use dependency injection
+- try deleting chromium driver from appium drivers list
