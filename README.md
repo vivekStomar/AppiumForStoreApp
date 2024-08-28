@@ -57,3 +57,4 @@ To-Do
 - Gradle run vs runTests, why to create runTests custom task
 - use dependency injection
 - try deleting chromium driver from appium drivers list
+- Running same test case multiple times with different data
